@@ -1,1 +1,1 @@
-# depression-destroyer
+This service was created during "Hack the Cloud" 2020 hackathon
