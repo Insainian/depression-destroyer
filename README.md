@@ -1,28 +1,8 @@
-This service was created during "Hack the Cloud" 2020 hackathon
+# Introduction
+This service was created during ["Hack the Cloud"](https://hack-the-cloud.devpost.com/) 2020 hackathon.
 
-Routes:
-http://localhost:3000/insult/random
+# API
+I used [NestJS](https://nestjs.com/) to set up the server framework and [Elasticsearch](https://www.elastic.co/) for the database.
 
-{
-    "message": "You are an insolent, artless rapscallion",
-    "messageType": "insult",
-    "tags": ["old timey"]
-}
 
-http://localhost:3000/inslt/list
 
-[
-    {
-        "message": "You are an insolent, artless rapscallion",
-        "messageType": "insult",
-        "tags": ["old timey"]
-    }
-    {
-        "message": "You blithering nincompoop",
-        "messageType": "insult",
-        "tags": ["old timey"]
-    }
-]
-
-http://localhost:3000/compliment/random
-http://localhost:3000/compliment/list
