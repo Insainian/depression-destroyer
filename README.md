@@ -1,10 +1,10 @@
 # Introduction
-This service was created during ["Hack the Cloud"](https://hack-the-cloud.devpost.com/) 2020 hackathon.
+This service was created during ["Hack the Cloud"](https://hack-the-cloud.devpost.com/) 2020 hackathon. It serves a variety of insults and compliments.
 
 # API
 I used [NestJS](https://nestjs.com/) and [TypeScript](https://www.typescriptlang.org/) to implement the server and used [Elasticsearch](https://www.elastic.co/) for the database.
 
-Request:
+Request for getting a random insult:
 
 ```
 http://localhost:3000/insult/random
@@ -20,7 +20,7 @@ Example response:
 }
 ```
 
-Request:
+Request for getting a list of insults:
 
 ```
 http://localhost:3000/insult/list
@@ -43,7 +43,7 @@ Example response:
 ]
 ```
 
-Request:
+Request for getting a random compliment:
 
 ```
 http://localhost:3000/compliment/random
@@ -59,7 +59,7 @@ Example response:
 }
 ```
 
-Request:
+Request for getting a list of compliments:
 
 ```
 http://localhost:3000/compliment/list
