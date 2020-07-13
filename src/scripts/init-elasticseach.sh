@@ -17,7 +17,7 @@ curl -XPUT 'http://localhost:9200/message/_doc/1?pretty' -H 'Content-Type: appli
 
 curl -XPUT 'http://localhost:9200/message/_doc/2?pretty' -H 'Content-Type: application/json' -d '
 {
-    "message": "Yo mama is so ugly, she made an onion cry",
+    "message": "Yo mama is so ugly she made an onion cry",
     "messageType": "insult",
     "tags": ["yo mama"]
 }'
@@ -31,7 +31,7 @@ curl -XPUT 'http://localhost:9200/message/_doc/3?pretty' -H 'Content-Type: appli
 
 curl -XPUT 'http://localhost:9200/message/_doc/4?pretty' -H 'Content-Type: application/json' -d '
 {
-    "message": "Yo mama so old I told her to act her own age, and she died",
+    "message": "Yo mama so old I told her to act her own age and she died",
     "messageType": "insult",
     "tags": ["yo mama"]
 }'
@@ -109,12 +109,12 @@ curl -XPUT 'http://localhost:9200/message/_doc/14?pretty' -H 'Content-Type: appl
 
 curl -XPUT 'http://localhost:9200/message/_doc/15?pretty' -H 'Content-Type: application/json' -d '
 {
-    "message": "Some cause happiness wherever they go, others whenever they go",
+    "message": "Some cause happiness wherever they go others whenever they go",
     "messageType": "insult",
     "tags": ["rare"]
 }'
 
-curl -XPUT 'http://localhost:9200/message/_doc/27?pretty' -H 'Content-Type: application/json' -d '
+curl -XPUT 'http://localhost:9200/message/_doc/16?pretty' -H 'Content-Type: application/json' -d '
 {
     "message": "You are a loser",
     "messageType": "insult",
@@ -126,77 +126,77 @@ echo "Done writing insults."
 
 echo "Writing compliments..."
 
-curl -XPUT 'http://localhost:9200/message/_doc/16?pretty' -H 'Content-Type: application/json' -d '
+curl -XPUT 'http://localhost:9200/message/_doc/17?pretty' -H 'Content-Type: application/json' -d '
 {
     "message": "Yo mama so nice she baked me a plate of cookies",
     "messageType": "compliment",
     "tags": ["yo mama"]
 }'
 
-curl -XPUT 'http://localhost:9200/message/_doc/17?pretty' -H 'Content-Type: application/json' -d '
+curl -XPUT 'http://localhost:9200/message/_doc/18?pretty' -H 'Content-Type: application/json' -d '
 {
     "message": "Yer gonna succeed with yer endeavors",
     "messageType": "compliment",
     "tags": ["old timey"]
 }'
 
-curl -XPUT 'http://localhost:9200/message/_doc/18?pretty' -H 'Content-Type: application/json' -d '
+curl -XPUT 'http://localhost:9200/message/_doc/19?pretty' -H 'Content-Type: application/json' -d '
 {
     "message": "I have never seen someone with such a voluminous brain",
     "messageType": "compliment",
     "tags": ["rare"]
 }'
 
-curl -XPUT 'http://localhost:9200/message/_doc/19?pretty' -H 'Content-Type: application/json' -d '
+curl -XPUT 'http://localhost:9200/message/_doc/20?pretty' -H 'Content-Type: application/json' -d '
 {
     "message": "Are you from Tennessee, cause you are the only 10 I see",
     "messageType": "compliment",
     "tags": ["cringe"]
 }'
 
-curl -XPUT 'http://localhost:9200/message/_doc/20?pretty' -H 'Content-Type: application/json' -d '
+curl -XPUT 'http://localhost:9200/message/_doc/21?pretty' -H 'Content-Type: application/json' -d '
 {
     "message": "You look nice today",
     "messageType": "compliment",
     "tags": ["generic"]
 }'
 
-curl -XPUT 'http://localhost:9200/message/_doc/21?pretty' -H 'Content-Type: application/json' -d '
+curl -XPUT 'http://localhost:9200/message/_doc/22?pretty' -H 'Content-Type: application/json' -d '
 {
     "message": "Ur brain is so bigly",
     "messageType": "compliment",
     "tags": ["cringe"]
 }'
 
-curl -XPUT 'http://localhost:9200/message/_doc/22?pretty' -H 'Content-Type: application/json' -d '
+curl -XPUT 'http://localhost:9200/message/_doc/23?pretty' -H 'Content-Type: application/json' -d '
 {
     "message": "You are a big brain",
     "messageType": "compliment",
     "tags": ["generic"]
 }'
 
-curl -XPUT 'http://localhost:9200/message/_doc/23?pretty' -H 'Content-Type: application/json' -d '
+curl -XPUT 'http://localhost:9200/message/_doc/24?pretty' -H 'Content-Type: application/json' -d '
 {
     "message": "You are breathtaking",
     "messageType": "compliment",
     "tags": ["generic"]
 }'
 
-curl -XPUT 'http://localhost:9200/message/_doc/24?pretty' -H 'Content-Type: application/json' -d '
+curl -XPUT 'http://localhost:9200/message/_doc/25?pretty' -H 'Content-Type: application/json' -d '
 {
-    "message": "Are you a dictionary, cause you are adding meaning to my life",
+    "message": "Are you a dictionary cause you are adding meaning to my life",
     "messageType": "compliment",
     "tags": ["cringe"]
 }'
 
-curl -XPUT 'http://localhost:9200/message/_doc/25?pretty' -H 'Content-Type: application/json' -d '
+curl -XPUT 'http://localhost:9200/message/_doc/26?pretty' -H 'Content-Type: application/json' -d '
 {
     "message": "Yo mama is so nice I gotta say it twice",
     "messageType": "compliment",
     "tags": ["yo mama"]
 }'
 
-curl -XPUT 'http://localhost:9200/message/_doc/26?pretty' -H 'Content-Type: application/json' -d '
+curl -XPUT 'http://localhost:9200/message/_doc/27?pretty' -H 'Content-Type: application/json' -d '
 {
     "message": "Yo mama is so loving I wish she was my mama",
     "messageType": "compliment",
