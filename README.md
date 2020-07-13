@@ -2,7 +2,7 @@
 This service was created during ["Hack the Cloud"](https://hack-the-cloud.devpost.com/) 2020 hackathon.
 
 # API
-I used [NestJS](https://nestjs.com/) to set up the server framework and [Elasticsearch](https://www.elastic.co/) for the database.
+I used [NestJS](https://nestjs.com/) and [TypeScript](https://www.typescriptlang.org/) to implement the server and used [Elasticsearch](https://www.elastic.co/) for the database.
 
 Request:
 
