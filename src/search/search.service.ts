@@ -10,6 +10,7 @@ export class SearchService {
         const { body } = await this.elasticsearchService.search({
             index: 'message',
             type: '_doc',
+            from: 0, size: 17,
             body: {
                 query: {
                     match: { messageType: messageType }
